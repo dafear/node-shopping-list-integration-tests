@@ -1,3 +1,8 @@
 language: node_js
 node_js: node
-    
+deploy:salty-eyrie-10604
+  provider: heroku
+  api_key: 7d248159-3949-43df-8a3a-d53fcb50140e
+  app: git diff
+  on:
+    repo: dafear/node-shopping-list-integration-tests
